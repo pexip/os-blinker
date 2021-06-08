@@ -1,6 +1,7 @@
 Source: blinker
-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
-Uploaders: Ondřej Surý <ondrej@debian.org>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+XSBC-Pexip-Original-Uploaders: Ondřej Surý <ondrej@debian.org>
 Section: python
 Priority: optional
 Build-Depends: python-all (>= 2.6.6-3), python3-all, debhelper (>= 7), dh-python, python-nose
@@ -8,6 +9,7 @@ Vcs-Svn: svn://anonscm.debian.org/python-modules/packages/blinker/trunk/
 Vcs-Browser: http://anonscm.debian.org/viewvc/python-modules/packages/blinker/trunk/
 Standards-Version: 3.9.5
 Homepage: http://pythonhosted.org/blinker/
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ buster
 
 Package: python-blinker
 Architecture: all
